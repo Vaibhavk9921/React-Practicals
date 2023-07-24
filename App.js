@@ -1,15 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
 
-// Basic Example 
+//Arrow Function with Multiple line
 
-function App() {
-  return (
-<div>
-  <p>Hello World</p>
-  <p>This Is My First React App</p>
-</div>
-);
+const App=()=>{
+  return(
+    <div>
+      <p>
+        Hello World
+        <br></br>
+        This Is My First React App 
+      </p>
+    </div>
+  )
 }
+//Arrow Function with Single line
 
+const App=()=>(<div>
+  <p>
+    Hello World
+    <br></br>
+    This Is My First React App 
+  </p>
+</div>)
 export default App;
