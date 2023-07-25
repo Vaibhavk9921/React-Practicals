@@ -29,12 +29,4 @@ let counter = 1
      refresh()
      counter = counter + 1
  }, 2000)
- refresh()
- counter=counter+1
- refresh()
- counter=counter+1
- refresh()
-counter=counter+1
-refresh()
-counter=counter+1
 reportWebVitals(console.log("Web Vitals Demo!!!!!"));
